@@ -8,6 +8,7 @@ namespace Physics
     {
         public const float gravity = 9.80665f;
         public const float speedOfLightInVacuum = 299792458; // (m/s)
+        public const float gasConstant = 287f; //R
 
         public static float StandardAtmosphere()
         {

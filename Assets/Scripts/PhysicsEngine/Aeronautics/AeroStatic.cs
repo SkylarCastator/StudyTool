@@ -10,9 +10,11 @@ namespace Physics
         {
             public float FindLiftOFGasBalloon(float densityATM, float balloonVolume, float moleMassATM, float moleMassGas)
             {
-                float lift = densityATM * balloonVolume * Constants.gravity * (1- (moleMassGas / moleMassATM));
+                float lift = densityATM * balloonVolume * Constants.gravity * (1 - (moleMassGas / moleMassATM));
                 return lift;
             }
+
+            
         }
 
         public class HotAirBalloon : AeroStatic
